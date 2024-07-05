@@ -7,7 +7,7 @@
 
 /* Constant defines -------------------------------------------------------- */
 #define CONVERT_G_TO_MS2    9.80665f
-#define MAX_ACCEPTED_RANGE  2.0f        // starting 03/2022, models are generated setting range to +-2, but this example use Arudino library which set range to +-4g. If you are using an older model, ignore this value and use 4.0f instead
+#define MAX_ACCEPTED_RANGE  2.0f        // models are generated setting range to +-2, but this example use Arudino library which set range to +-4g. If you are using an older model, ignore this value and use 4.0f instead
 
 /* Private variables ------------------------------------------------------- */
 static bool debug_nn = false; // Set this to true to see e.g. features generated from the raw signal
